@@ -78,8 +78,7 @@ A modern web application prototype inspired by Craigslist, featuring a purple co
 ## 📦 Installation
 
 ### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn package manager
+- Bun v1.2.23 (or higher)
 
 ### Setup Instructions
 
@@ -92,19 +91,20 @@ A modern web application prototype inspired by Craigslist, featuring a purple co
 
 2. **Install dependencies**
    ```bash
-   npm install
-   # or
-   yarn install
+   bun install
    ```
 
 3. **Start the development server**
    ```bash
-   npm run dev
-   # or
-   yarn dev
+   bun run dev
    ```
 
-4. **Open in browser**
+4. **Create a production build**
+   ```bash
+   bun run build
+   ```
+
+5. **Open in browser**
    - Navigate to `http://localhost:5173` (or the port shown in terminal)
    - The application should load with the home page
 
